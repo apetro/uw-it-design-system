@@ -11,9 +11,9 @@
   "author": "UW Madison",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-jshint": "^2.1.0",
-    "gulp-livereload": "^3.8.1",
+    "gulp-livereload": "^4.0.1",
     "gulp-minify": "^2.1.0",
     "gulp-sass": "^3.1.0",
     "jshint": "^2.9.5",

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Acknowledgements | Honey Bee Design System
+title: Acknowledgements | UW IT Design System
 ---
 ## Who We Are
 

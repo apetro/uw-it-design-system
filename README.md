@@ -1,8 +1,8 @@
-# Honey Bee Design System
+# UW IT Design System
 
 WIP
 
-Preview this project at https://uw-madison-doit.github.io/honeybee-design-system/
+Preview this project at https://uw-madison-doit.github.io/uw-it-design-system/
 
 ## Getting Started
 
@@ -25,7 +25,7 @@ To run the site locally, use: `jekyll serve`
 
 Building for production is easy, just run npm run build-prod to compile and minify all .scss and .js files. This will overwrite any non minified files in the dist directory, this is done so that file paths do not need to be changed when building for prod or working in a dev environment.
 
-The site will be available at http://127.0.0.1:4000/honeybee-design-system/
+The site will be available at http://127.0.0.1:4000/uw-it-design-system/
 
 ---
 

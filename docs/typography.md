@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Typography | Honey Bee Design System
+title: Typography | UW IT Design System
 ---
 ## Typography

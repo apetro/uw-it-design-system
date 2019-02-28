@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Foundations | Honey Bee Design System
+title: Foundations | UW IT Design System
 ---
 ## Design Foundations

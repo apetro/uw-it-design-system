@@ -1,7 +1,7 @@
 {
-  "name": "honeybee-design-system",
+  "name": "uw-it-design-system",
   "version": "1.0.0",
-  "description": "Public website for the Honey Bee Design System, by UW-Madison's Division of Information Technology",
+  "description": "Public website for the UW IT Design System, by UW-Madison's Division of Information Technology",
   "author": "UW Madison",
   "license": "ISC"
 }

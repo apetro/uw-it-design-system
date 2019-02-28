@@ -1,6 +1,6 @@
 ---
 layout: component
-title: Navigation | Honey Bee Design System
+title: Navigation | UW IT Design System
 componentName: Navigation
 ---
 

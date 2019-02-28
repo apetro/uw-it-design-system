@@ -5,7 +5,6 @@ WIP
 Preview this project at https://uw-madison-doit.github.io/honeybee-design-system/
 
 ## Getting Started
-Clone the repository locally and run `npm install`
 
 Ensure you have Jekyll installed on your machine: `jekyll -v` 
 

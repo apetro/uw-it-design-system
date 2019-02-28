@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Resources | Honey Been Design System
+title: Resources | Honey Bee Design System
 ---
 ## Resources
 

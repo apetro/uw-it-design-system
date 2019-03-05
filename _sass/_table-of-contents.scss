@@ -2,10 +2,10 @@
   background: #959595;
 
   &__section {
-    margin: 32px;
+    margin: $gutter;
 
     & + & {
-      padding-top: 32px;
+      padding-top: $gutter;
       border-top: 1px solid rgba(255, 255, 255, 0.5);
     }
   }
@@ -18,7 +18,7 @@
   }
 
   &__ul {
-    margin: 16px 0 32px 32px;
+    margin: $gutter/2 0 $gutter $gutter;
     padding: 0;
     list-style: none;
     font-size: 20px;

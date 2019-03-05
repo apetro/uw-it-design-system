@@ -1,6 +1,6 @@
 ---
 layout: default
-title: UI Components | Honey Bee Design System
+title: UI Components | UW IT Design System
 ---
 ## UI Components
 

@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Colors | Honey Bee Design System
+title: Colors | UW IT Design System
 ---
 ## Colors

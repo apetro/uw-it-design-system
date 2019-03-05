@@ -1,6 +1,6 @@
 ---
 layout: component
-title: Toolbar | Honey Bee Design System
+title: Toolbar | UW IT Design System
 componentName: Toolbar
 ---
 

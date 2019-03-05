@@ -7,7 +7,7 @@
   justify-content: flex-start;
   align-items: center;
 
-  .uwds-hero__heading {
+  &__heading {
     display: flex;
     flex-direction: column;
     color: $uw-white-text;

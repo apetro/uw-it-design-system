@@ -1,0 +1,20 @@
+.uwds-hero {
+  display: flex;
+  min-height: 12rem;
+  padding: 2rem 0;
+  background-position: center;
+  background-size: cover;
+  justify-content: flex-start;
+  align-items: center;
+
+  .uwds-hero__heading {
+    display: flex;
+    flex-direction: column;
+    color: #fafafa;
+    background: #790000;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1.5rem 2rem 2rem;
+    max-width: 32rem;
+  }
+}

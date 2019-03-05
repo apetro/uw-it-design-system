@@ -13,6 +13,14 @@
     {% include header.html %}
     {% include navigation.html %}
     <main>
+      <div class="uwds-hero" style="background-image: url('{{ page.image }}')">
+        <div class="uwds-hero__heading">
+          <h2>
+            {{ page.heading }}
+          </h2>
+          <p>{{ page.subheading }}</p>
+        </div>
+      </div>
       {{ content }}
     </main>
   </body>

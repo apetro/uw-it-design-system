@@ -13,7 +13,11 @@ body {
     flex-direction: row;
     height: 100vh;
   }
-
+	.uwds-content {
+		width: 100%;
+		padding: $gutter;
+		box-sizing: border-box;
+	}
   main {
     margin: 2rem 3rem 6rem;
   }

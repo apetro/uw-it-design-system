@@ -14,3 +14,14 @@ body {
   line-height: 1.65em;
   background: $uw-page-bg;
 }
+
+header.uwds-page-header {
+	background: $uw-red;
+	padding: $gutter/2 $gutter;
+	box-sizing: border-box;
+	a {
+		color: $uw-white-text;
+		text-decoration: none;
+		text-transform: uppercase
+	}
+}

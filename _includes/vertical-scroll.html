@@ -8,26 +8,48 @@
     
     
     <!-- TESTING -->
-        <section id="usage" class="content-section">
-                <h1>Dos and Don'ts</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe hic laboriosam quam veniam minima assumenda sit temporibus dicta commodi aperiam ducimus eveniet expedita, iure ex nam, quas explicabo quasi. Deleniti?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe hic laboriosam quam veniam minima assumenda sit temporibus dicta commodi aperiam ducimus eveniet expedita, iure ex nam, quas explicabo quasi. Deleniti?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe hic laboriosam quam veniam minima assumenda sit temporibus dicta commodi aperiam ducimus eveniet expedita, iure ex nam, quas explicabo quasi. Deleniti?</p>
-        </section>
-            
-            <section id="values" class="content-section">
-                <h1>Values</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe hic laboriosam quam veniam minima assumenda sit temporibus dicta commodi aperiam ducimus eveniet expedita, iure ex nam, quas explicabo quasi. Deleniti?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe hic laboriosam quam veniam minima assumenda sit temporibus dicta commodi aperiam ducimus eveniet expedita, iure ex nam, quas explicabo quasi. Deleniti?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam adipisci id voluptate quas, commodi facere atque maxime aspernatur possimus esse. Fuga excepturi maiores quam saepe. Doloribus maiores laborum vel corporis.</p>
-            </section>
-            
-            <section id="accessibility" class="content-section">
-                <h1>Accessibitliy</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe hic laboriosam quam veniam minima assumenda sit temporibus dicta commodi aperiam ducimus eveniet expedita, iure ex nam, quas explicabo quasi. Deleniti?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe hic laboriosam quam veniam minima assumenda sit temporibus dicta commodi aperiam ducimus eveniet expedita, iure ex nam, quas explicabo quasi. Deleniti?</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, aliquid optio atque quae, dignissimos repellendus odit odio neque, nemo ipsam beatae. Ducimus sunt saepe illum quae aliquid voluptates architecto minus!</p>
-        </section>
-   
+    <section id="usage" class="content-section">
+        <h1>Dos and Don'ts</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe hic laboriosam quam veniam minima assumenda sit temporibus dicta commodi aperiam ducimus eveniet expedita, iure ex nam, quas explicabo quasi. Deleniti?</p>
+
+
+{% capture lorem_ipsum %}
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe hic laboriosam
+quam veniam minima assumenda sit temporibus dicta commodi aperiam ducimus
+eveniet expedita, iure ex nam, quas explicabo quasi. Deleniti?</p>
+{% endcapture %}
+
+{% capture hipster_ipsum %}
+<p>Lorem ipsum dolor amet mumblecore roof party listicle seitan live-edge,
+vinegar brunch ethical banh mi farm-to-table semiotics. Meditation sartorial,
+pork belly gluten-free raclette vice copper mug twee ethical thundercats green
+juice master cleanse farm-to-table mustache.</p>
+{% endcapture %}
+
+{% include do-this-not-that.html
+  do-this=lorem_ipsum
+  do-phrase="use loreum ipsum"
+  not-that=hipster_ipsum
+  not-phrase="use hipster ipsum"
+%}
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe hic laboriosam quam veniam minima assumenda sit temporibus dicta commodi aperiam ducimus eveniet expedita, iure ex nam, quas explicabo quasi. Deleniti?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe hic laboriosam quam veniam minima assumenda sit temporibus dicta commodi aperiam ducimus eveniet expedita, iure ex nam, quas explicabo quasi. Deleniti?</p>
+    </section>
+    
+    <section id="values" class="content-section">
+        <h1>Values</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe hic laboriosam quam veniam minima assumenda sit temporibus dicta commodi aperiam ducimus eveniet expedita, iure ex nam, quas explicabo quasi. Deleniti?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe hic laboriosam quam veniam minima assumenda sit temporibus dicta commodi aperiam ducimus eveniet expedita, iure ex nam, quas explicabo quasi. Deleniti?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam adipisci id voluptate quas, commodi facere atque maxime aspernatur possimus esse. Fuga excepturi maiores quam saepe. Doloribus maiores laborum vel corporis.</p>
+    </section>
+    
+    <section id="accessibility" class="content-section">
+        <h1>Accessibitliy</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe hic laboriosam quam veniam minima assumenda sit temporibus dicta commodi aperiam ducimus eveniet expedita, iure ex nam, quas explicabo quasi. Deleniti?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe hic laboriosam quam veniam minima assumenda sit temporibus dicta commodi aperiam ducimus eveniet expedita, iure ex nam, quas explicabo quasi. Deleniti?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, aliquid optio atque quae, dignissimos repellendus odit odio neque, nemo ipsam beatae. Ducimus sunt saepe illum quae aliquid voluptates architecto minus!</p>
+    </section>
+    
+    
     
     

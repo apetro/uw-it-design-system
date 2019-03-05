@@ -1,19 +1,21 @@
-<div style="display: grid; grid-column-gap: 50px;  grid-template-columns: auto auto;">
+<div class="uwds-paired-example">
 <!-- Desperately needs refactored to use CSS! -->
 
 
-<div style="border-bottom: 5px solid green;">
-  <div style="border-style: solid;">
+<div class="uwds-paired-example__positive-example">
+  <div class="uwds-paired-example__example">
     {{ include.do-this }}
   </div>
-  <div><span style="color:green">Do</span> {{ include.do-phrase }}</div>
+  <div class="uwds-paired-example__phrase"><span class="uwds-paired-example__positive-example__do">Do</span>
+    {{ include.do-phrase }}</div>
 </div>
 
-<div style="border-bottom: 5px solid red;">
-  <div style="border-style: solid;">
+<div class="uwds-paired-example__negative-example">
+  <div class="uwds-paired-example__example">
     {{ include.not-that }}
   </div>
-  <div><span style="color:red">Don't</span> {{ include.not-phrase }}</div>
+  <div class="uwds-paired-example__phrase"><span class="uwds-paired-example__negative-example__do-not">Don't</span>
+    {{ include.not-phrase }}</div>
 </div>
 
 </div>

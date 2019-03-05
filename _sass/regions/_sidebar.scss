@@ -1,0 +1,9 @@
+.uwds-page__sidebar {
+  width: $sidebar-width;
+  position: absolute;
+  top: $topbar-height;
+  bottom: 0;
+  left: 0;
+  background: #959595;
+  overflow-y: auto;
+}

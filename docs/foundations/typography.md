@@ -2,7 +2,6 @@
 layout: default
 title: Typography
 ---
-# Typography
 
 Use the type scale to apply consistent typographic design.
 

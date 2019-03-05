@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% for section in site.data.table-of-contents %}
+  {% if section.name == page.title %}
+    {% if section.items %}
+      <ol>
+      {% for item in section.items %}
+      <li>
+        <a href="{{ site.baseurl }}{{ item.url }}">
+          {{ item.name }}
+        </a>
+      </li>
+      {% endfor %}
+      </ol>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+{{ content }}

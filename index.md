@@ -15,6 +15,3 @@ This system was created to provide developers across the UW-Madison campus with 
 ### UI Components
 
 ### Partners and Contributors
-
-
-

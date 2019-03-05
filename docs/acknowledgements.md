@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Acknowledgements | UW IT Design System
+title: Acknowledgements
 ---
 ## Who We Are
 

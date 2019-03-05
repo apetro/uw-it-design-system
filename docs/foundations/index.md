@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Foundations | UW IT Design System
+title: Foundations
 ---
 ## Design Foundations

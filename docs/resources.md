@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Resources | UW IT Design System
+title: Resources
 ---
 ## Resources
 

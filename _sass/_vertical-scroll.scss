@@ -1,0 +1,33 @@
+.uwds_vertical-nav{
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+
+
+    &__list-item{
+        list-style: none;
+    }
+
+    &__list-link:link,
+    &__list-link:visited{
+
+        color: grey;
+        text-decoration: none;
+        display: block;
+        padding: .5rem 0;
+        position: relative;
+        z-index: 10;
+    
+        display: flex;
+        align-items: center;
+    }
+}
+
+// TESTING
+.content-section{
+    position: relative;
+    width: 70%;
+    padding: 1rem;
+}
+
+

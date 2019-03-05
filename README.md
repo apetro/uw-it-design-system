@@ -15,10 +15,12 @@ Good news: you can locally build and try out the documentation without locally
 installing Ruby, Bundler, Gem, Gulp, Hack, Cough, Spittle, Phlem, or, well, you
 get the idea.
 
-1. Install [Docker][].
-2. Navigate on the command line to the directory of this project.
-3. `docker-compose up`
-4. Tada! You can now locally try out the site at
+1. Clone this repo locally:
+   `git clone https://github.com/UW-Madison-DoIT/uw-it-design-system.git`
+2. Install [Docker][].
+3. Navigate on the command line to the directory of this project.
+4. `docker-compose up`
+5. Tada! You can now locally try out the site at
    `localhost:8080/uw-it-design-system/`.
 
 All the tooling, all the building, happens contained in a tidy little Docker

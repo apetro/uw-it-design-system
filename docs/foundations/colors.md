@@ -2,4 +2,4 @@
 layout: default
 title: Colors
 ---
-## Colors
+# Colors

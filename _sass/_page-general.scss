@@ -46,3 +46,19 @@ h4 {
 	line-height: 1.66rem;
 	font-weight: 500;
 }
+
+.uwds-view-mode {
+	display: none;
+	&--toggle {
+		text-align: right;
+		color: $uw-gray-darker;
+	}
+	&--toggle a {
+		text-decoration: none;
+		color: $uw-gray-darker;
+	}
+	&--toggle a.active{
+		font-weight: 500;
+		color: $uw-gray-darkest;
+	}
+}

@@ -27,6 +27,33 @@ Building for production is easy, just run npm run build-prod to compile and mini
 
 The site will be available at http://127.0.0.1:4000/uw-it-design-system/
 
+## Do and do not includes
+
+To use the do this, not that idiom, use the `do-this-not-that` `include`.
+
+First, capture the examples
+
+```liquid
+{% capture totally_do_this %}
+This exemplifies doing The Thing with panache.
+{% endcapture %}
+
+{% capture so_do_not_do_this %}
+This exemplifies Doing It Wrong.
+{% endcapture %}
+```
+
+Then, invoke the include, passing along the examples.
+
+```liquid
+{% include do-this-not-that.html
+  do-this=totally_do_this
+  not-that=so_do_not_do_this %}
+```
+
+In this example, `totally_do_this` and `so_do_not_do_this` are arbitrary
+identifiers -- use whatever would best label the examples.
+
 ---
 
 Copyright (c) 2019 by Board of Regents of the University of Wisconsin System.

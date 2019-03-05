@@ -9,6 +9,21 @@ Preview this project at https://uw-madison-doit.github.io/uw-it-design-system/
 Clone the repository locally and run `bundler install`
 That's all there is to it.
 
+## Alternative getting started
+
+Good news: you can locally build and try out the documentation without locally
+installing Ruby, Bundler, Gem, Gulp, Hack, Cough, Spittle, Phlem, or, well, you
+get the idea.
+
+1. Install [Docker][].
+2. Navigate on the command line to the directory of this project.
+3. `docker-compose up`
+4. Tada! You can now locally try out the site at
+   `localhost:8080/uw-it-design-system/`.
+
+All the tooling, all the building, happens contained in a tidy little Docker
+container with no impact on your local environment.
+
 ## Developing
 
 Ensure you have Jekyll installed on your machine: `jekyll -v` 
@@ -71,3 +86,5 @@ identifiers -- use whatever would best label the examples.
 ---
 
 Copyright (c) 2019 by Board of Regents of the University of Wisconsin System.
+
+[Docker]: https://www.docker.com/

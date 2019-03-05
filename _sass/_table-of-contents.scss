@@ -1,10 +1,11 @@
 .table-of-contents {
-  background: #959595;
+  padding: 32px 0;
 
   &__section {
-    margin: $gutter;
+    margin: 0 $gutter;
 
     & + & {
+      margin-top: $gutter;
       padding-top: $gutter;
       border-top: 1px solid rgba(255, 255, 255, 0.5);
     }
@@ -14,21 +15,22 @@
     margin: 0;
     padding: 0;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 1.25rem;
   }
 
   &__ul {
     margin: $gutter/2 0 $gutter $gutter;
     padding: 0;
     list-style: none;
-    font-size: 20px;
+    font-size: 1rem;
   }
 
   &__li + &__li {
     margin-top: 12px;
   }
 
-  &__a:link, &__a:visited {
+  &__a:link,
+  &__a:visited {
     color: white;
     text-decoration: none;
   }

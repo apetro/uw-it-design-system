@@ -15,7 +15,6 @@ body {
   }
 	.uwds-content {
 		width: 100%;
-		padding: $gutter;
 		box-sizing: border-box;
 	}
   main {
@@ -25,25 +24,25 @@ body {
 
 h1 {
 	font-size: 2rem;
-	line-height: 1.17rem;
+	line-height: 1.17;
 	font-weight: 400;
 }
 
 h2 {
 	font-size: 1.5rem;
-	line-height: 1.33rem;
+	line-height: 1.33;
 	font-weight: 400;
 }
 
 h3 {
 	font-size: 1.25rem;
-	line-height: 1.6rem;
+	line-height: 1.6;
 	font-weight: 500;
 }
 
 h4 {
 	font-size: 1.125rem;
-	line-height: 1.66rem;
+	line-height: 1.66;
 	font-weight: 500;
 }
 

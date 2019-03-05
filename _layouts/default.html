@@ -17,10 +17,16 @@
       </div>
       <div class="uwds-page__body">
         <div class="uwds-page__body__column">
+          <div class="uwds-view-mode--toggle">
+            <a href="#" title="Toggle Designer Mode" data-mode="designer">Design</a> |
+            <a href="#" title="Toggle Developer Mode" data-mode="developer">Develop</a>
+          </div>
           <h1>{{ page.title }}</h1>
           {{ content }}
         </div>
       </div>
     </div>
+		<script type="text/javascript" src="{{ site.baseurl }}/assets/scripts/vendor/jquery-1.12.0.min.js"></script>
+		<script type="text/javascript" src="{{ site.baseurl }}/assets/scripts/main.js"></script>
   </body>
 </html>

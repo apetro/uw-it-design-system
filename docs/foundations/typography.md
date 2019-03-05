@@ -3,6 +3,8 @@ layout: default
 title: Typography
 ---
 
+{% capture designer %}
+
 Use the type scale to apply consistent typographic design.
 
 ### Typefaces
@@ -31,3 +33,14 @@ SOME KIND OF DEMONSTRATIVE EXAMPLE GOES HERE
 <h4>H4: The quick brown fox jumps over the lazy dog</h4>
 <h5>H5: The quick brown fox jumps over the lazy dog</h5>
 <h6>H6: The quick brown fox jumps over the lazy dog</h6>
+
+{% endcapture %}
+
+{% capture developer %}
+	Developer Content
+{% endcapture %}
+
+{% include view-mode.html
+	designer=designer
+	developer=developer
+%}

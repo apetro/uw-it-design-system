@@ -2,12 +2,20 @@
   Styles related to the site's page header (red top bar)
 */
 header.uwds-page-header {
+  display: flex;
+  align-items: center;
 	background: $uw-red;
 	padding: $gutter/2 $gutter;
-	box-sizing: border-box;
-	a {
-		color: $uw-white-text;
-		text-decoration: none;
-		text-transform: uppercase
-	}
+  box-sizing: border-box;
+  max-height: 64px;
+
+  h1 {
+    font-size: 1.2rem;
+
+    a {
+      color: $uw-white-text;
+      text-decoration: none;
+      text-transform: none; 
+    }
+  }
 }

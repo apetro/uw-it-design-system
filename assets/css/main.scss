@@ -10,3 +10,9 @@
 @import 'landing';
 @import 'table-of-contents';
 @import 'vertical-scroll';
+
+// Styles for the general page layout, sidebar
+// layout, and body content layout.
+@import 'regions/page';
+@import 'regions/sidebar';
+@import 'regions/body';

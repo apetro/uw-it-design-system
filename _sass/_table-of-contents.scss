@@ -1,11 +1,11 @@
 .table-of-contents {
-  background: #959595;
-  box-shadow: 0 0 3px 1px rgba(0,0,0,0.2);
+  padding: 32px 0;
 
   &__section {
-    margin: $gutter;
+    margin: 0 $gutter;
 
     & + & {
+      margin-top: $gutter;
       padding-top: $gutter;
       border-top: 1px solid rgba(255, 255, 255, 0.5);
     }
@@ -29,7 +29,8 @@
     margin-top: 12px;
   }
 
-  &__a:link, &__a:visited {
+  &__a:link,
+  &__a:visited {
     color: white;
     text-decoration: none;
   }

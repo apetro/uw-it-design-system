@@ -1,0 +1,19 @@
+<div style="display: grid; grid-column-gap: 50px;  grid-template-columns: auto auto;">
+<!-- Desperately needs refactored to use CSS! -->
+
+
+<div style="border-bottom: 5px solid green;">
+  <div style="border-style: solid;">
+    {{ include.do-this }}
+  </div>
+  <div><span style="color:green">Do</span> {{ include.do-phrase }}</div>
+</div>
+
+<div style="border-bottom: 5px solid red;">
+  <div style="border-style: solid;">
+    {{ include.not-that }}
+  </div>
+  <div><span style="color:red">Don't</span> {{ include.not-phrase }}</div>
+</div>
+
+</div>

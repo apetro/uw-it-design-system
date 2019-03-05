@@ -1,0 +1,13 @@
+/*
+  Styles related to the site's page header (red top bar)
+*/
+header.uwds-page-header {
+	background: $uw-red;
+	padding: $gutter/2 $gutter;
+	box-sizing: border-box;
+	a {
+		color: $uw-white-text;
+		text-decoration: none;
+		text-transform: uppercase
+	}
+}

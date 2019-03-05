@@ -2,7 +2,6 @@
 layout: default
 title: Colors
 ---
-## Colors
 
 {% capture designer %}
 	Designer Content

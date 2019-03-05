@@ -1,0 +1,14 @@
+/*
+  Styles to govern general content of pages (e.g. HTML coverted from Markdown)
+*/
+body {
+	font-family: "Roboto", Tahoma, sans-serif;
+	font-size: 16px;
+	letter-spacing: .05em;
+  line-height: 1.65em;
+  background: $uw-page-bg;
+
+  main {
+    margin: 2rem 3rem 6rem;
+  }
+}

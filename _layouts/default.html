@@ -11,7 +11,11 @@
   </head>
   <body>
     {% include header.html %}
-    {% include table-of-contents.html %}
-    {{ content }}
+    <div class="uwds-content-wrapper">
+      {% include table-of-contents.html %}
+      <div class="uwds-content">
+        {{ content }}
+      </div>
+    </div>
   </body>
 </html>

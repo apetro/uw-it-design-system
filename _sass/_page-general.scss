@@ -8,6 +8,12 @@ body {
   line-height: 1.65em;
   background: $uw-page-bg;
 
+  .uwds-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  }
+
   main {
     margin: 2rem 3rem 6rem;
   }

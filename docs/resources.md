@@ -9,5 +9,6 @@ title: Resources
 - [UW-Madison Brand and Visual Identity](https://brand.wisc.edu/)
 - [UW Theme components](https://www.wisc.edu/components/)
 - [Wisconsin School of Business Digital Style Guide Work In Progress][]
+- [More design systems](https://github.com/alexpate/awesome-design-systems)
 
 [Wisconsin School of Business Digital Style Guide Work In Progress]: https://designlibrary.wsb.wisc.edu

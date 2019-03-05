@@ -6,8 +6,6 @@
 @import 'fonts';
 @import 'variables';
 
-$gutter: 30px;
-
 body {
 	font-family: "Roboto", Tahoma, sans-serif;
 	font-size: 16px;
@@ -16,11 +14,11 @@ body {
 }
 
 header.uwds-page-header {
-	background: red;
+	background: $uw-red;
 	padding: $gutter/2 $gutter;
 	box-sizing: border-box;
 	a {
-		color: white;
+		color: $uw-white-text;
 		text-decoration: none;
 		text-transform: uppercase
 	}

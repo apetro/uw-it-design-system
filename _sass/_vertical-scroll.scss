@@ -11,6 +11,7 @@
     &__list-link:link,
     &__list-link:visited{
 
+        scroll-behavior: smooth;
         color: grey;
         text-decoration: none;
         display: block;
@@ -21,13 +22,19 @@
         display: flex;
         align-items: center;
     }
+
+   
 }
 
 // TESTING
+html{
+    scroll-behavior: smooth;
+}
 .content-section{
     position: relative;
     width: 70%;
     padding: 1rem;
 }
+
 
 

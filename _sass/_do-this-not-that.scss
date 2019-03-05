@@ -1,0 +1,27 @@
+.uwds-paired-example {
+
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto;
+
+  &__positive-example {
+    border-bottom: 5px solid green;
+  }
+
+  &__positive-example__do {
+    color:green;
+  }
+
+  &__negative-example {
+    border-bottom: 5px solid red;
+  }
+
+  &__negative-example__do-not {
+    color:red;
+  }
+
+  &__example {
+    border-style: solid;
+  }
+
+}

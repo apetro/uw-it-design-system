@@ -2,4 +2,4 @@
 layout: default
 title: Foundations
 ---
-## Design Foundations
+# Design Foundations

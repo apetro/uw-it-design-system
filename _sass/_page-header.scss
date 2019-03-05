@@ -3,11 +3,14 @@
 */
 header.uwds-page-header {
   display: flex;
+  position: sticky;
+  top: 0;
   align-items: center;
 	background: $uw-red;
 	padding: $gutter/2 $gutter;
   box-sizing: border-box;
   max-height: 64px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2), 0 1px 1px 0 rgba(0,0,0,0.14), 0 2px 1px -1px rgba(0,0,0,0.12);
 
   h1 {
     font-size: 1.2rem;

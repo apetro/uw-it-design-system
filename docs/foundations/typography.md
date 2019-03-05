@@ -2,7 +2,7 @@
 layout: default
 title: Typography
 ---
-## Typography
+# Typography
 
 <h1>H1: The quick brown fox jumps over the lazy dog</h1>
 <h2>H2: The quick brown fox jumps over the lazy dog</h2>

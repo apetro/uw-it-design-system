@@ -4,3 +4,13 @@
 @import 'normalize';
 @import 'base';
 @import 'landing';
+@import 'fonts';
+@import 'variables';
+
+body {
+	font-family: "Roboto", Tahoma, sans-serif;
+	font-size: 16px;
+	letter-spacing: .05em;
+  line-height: 1.65em;
+  background: $uw-page-bg;
+}

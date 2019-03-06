@@ -108,7 +108,7 @@ _you are not meant to type in the $_).
 $ cd
 $ mkdir uw-it-design-system-work
 $ cd uw-it-design-system-work
-$ git clone git clone https://github.com/UW-Madison-DoIT/uw-it-design-system.git
+$ git clone https://github.com/UW-Madison-DoIT/uw-it-design-system.git
 $ cd uw-it-design-system
 ```
 

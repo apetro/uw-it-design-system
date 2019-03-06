@@ -6,4 +6,10 @@
   left: 0;
   background: #959595;
   overflow-y: auto;
+  color: white;
+
+  &__footer {
+    padding: 32px 0;
+    margin-left: 32px;
+  }
 }

@@ -98,21 +98,17 @@ viewmodes: true
 
 Use a capture group to assign content to a specific view. In the example below, we use the capture group `{% capture designer %}` to assign designer specific content to the design view mode. 
 
-Add a view-mode.html include to the page to display the content.
-
 ```
 {% capture designer %}
 	Designer specific content goes here...
 {% endcapture %}
+{% include view-mode.html designer=designer %}
 
 {% capture developer %}
 	Developer specific content goes here...
 {% endcapture %}
+{% include view-mode.html developer=developer %}
 
-{% include view-mode.html
-	designer=designer
-	developer=developer
-%}
 ```
 
 

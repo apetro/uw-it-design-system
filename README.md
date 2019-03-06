@@ -63,6 +63,8 @@ a templating language called Liquid).
 
 For instance, `do-this-not-that.html` defines the `do-this-not-that` include.
 
+See also: [README in includes](./_includes/README.md)
+
 ### How you can edit
 
 ### Option 1: online editing

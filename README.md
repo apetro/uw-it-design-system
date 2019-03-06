@@ -87,16 +87,15 @@ identifiers -- use whatever would best label the examples.
 
 ## View Modes
 
-To add the "Design | Develop" toggle to a markdown page, add `viewmodes: true` to the page's top matter:
+The "Design | Develop" view modes toggle is automatically included on the component layout.
 ```
 ---
-layout: default
+layout: component
 title: Typography
-viewmodes: true
 ---
 ```
 
-Use a capture group to assign content to a specific view. In the example below, we use the capture group `{% capture designer %}` to assign designer specific content to the design view mode. 
+Use a capture group to assign content to a specific view. In the example below, we use the capture group `{% capture designer %}` to assign designer specific content to the design view mode.
 
 ```
 {% capture designer %}

@@ -1,7 +1,11 @@
 <!--[if lt IE 8]>
   <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
-<header class="uwds-page-header">
-  <button id="menu-toggle" class="menu-toggle">MENU</button>
-  <h1><a href="{{ site.baseurl }}/">UW IT Design System</a></h1>
-</header>
+
+<uwds-top-bar
+  theme-name=""
+  app-name="UW IT Design System"
+  app-url="{{site.baseurl}}/">
+  <button slot="myuw-navigation" id="menu-toggle" class="menu-toggle">MENU</button>
+</uwds-top-bar>
+

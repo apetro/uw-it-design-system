@@ -1,17 +1,12 @@
-
-.uwds-page__sidebar{
-  background: #959595;
-  overflow-y: auto;
-  color: white;
-  position: fixed;
-  transform: translateX(-100%);
-  transition: transform 200ms ease-in-out;
+.uwds-page__sidebar {
+  width: $sidebar-width;
+  position: absolute;
   top: $topbar-height;
+  border-right: 1px solid $color-gray-lighter;
   bottom: 0;
-  &.active{
-    transform: translateX(0);
-
-  }
+  left: 0;
+  overflow-y: auto;
+  color: $color-black-font;
 
   &__footer {
     padding: 32px 0;
@@ -24,10 +19,7 @@
   .uwds-page__sidebar {
     width: $sidebar-width;
     position: absolute;
-    // height: 100vh;
     left: 0;
     transform: none;
-
-   
   }
 }

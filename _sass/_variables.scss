@@ -1,24 +1,38 @@
-/* Primary Colors */
 
-$uw-red: #C5050C;
-$uw-dark-red: #9B0000;
+// Red
+$color-red: #C5050C;
+$color-red-light: #D79999;
+$color-red-dark: #9B0000;
 
-$uw-success-color: #2E7532;
-$uw-success-color-hover: #255F28;
+// Gray
+$color-gray-dark: #494949;
+$color-gray-light: #ADADAD;
+$color-gray-lighter: #DADFE1;
+$color-gray-lightest: #F7F7F7;
 
-$uw-anchor-color: #0479a8;
-$uw-anchor-color-hover: #034E6C;
+// Orange
+$color-orange-light: #FFB74D;
+$color-orange-medium: #FF9800;
+$color-orange-dark: #EF6C00;
 
-$uw-gray-darker: #646569;
-$uw-gray-darkest: #282728;
+// Yellow
+$color-yellow-light: #FFE082;
+$color-yellow-medium: #FFC82C;
+$color-yellow-dark: #F8B700;
 
-$uw-page-bg: #F7F7F7;
-$uw-gray-blue-bg: #DADFE1;
+// Green
+$color-green-light: #81B184;
+$color-green-medium: #2E7D32;
+$color-green-dark: #1B4B1E;
 
-$uw-body-font: #494949;
-$uw-gray-footer-text: #ADADAD;
-$uw-text-red: #790000;
-$uw-white-text: #F9F9F9;
+//Blue
+$color-blue: #0479A8;
+$color-blue-light: #9AC9DC;
+$color-blue-dark: #034E6C;
+
+/* Font Colors */
+$color-black-font: #282728;
+$color-white-font: #F9F9F9;
 
 /* Functional Patterns */
 $gutter: 30px;

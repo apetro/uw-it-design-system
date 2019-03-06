@@ -9,9 +9,7 @@ This system was created to provide developers across the UW-Madison campus with 
 
 ## Getting Started
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quisquam
-vel aliquid odio pariatur quae, eius, quam officia distinctio id ad temporibus
-praesentium obcaecati quibusdam corporis vero itaque alias sint?
+Hello welcome. To begin, we'll
 
 ## UI Components
 

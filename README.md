@@ -11,7 +11,7 @@ View the website at https://uw-madison-doit.github.io/uw-it-design-system/
 ### How the website works
 
 In general this is a website generated via the Jekyll static site generator as
-provided software--as-a-service in GitHub Pages.
+provided software-as-a-service in GitHub Pages.
 
 That means there's source code for the site (text files and assets) that a
 program (Jekyll) tranforms into a website (generated HTML files) that GitHub

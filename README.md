@@ -2,37 +2,155 @@
 
 WIP
 
-Preview this project at https://uw-madison-doit.github.io/uw-it-design-system/
+## Getting started with understanding, using the design system
 
-## Getting Started
+View the website at https://uw-madison-doit.github.io/uw-it-design-system/
 
-Clone the repository locally and run `bundler install`
-That's all there is to it.
+## Getting Started with editing the design system
 
-## Alternative getting started
+### How the website works
+
+In general this is a website generated via the Jekyll static site generator as
+provided software--as-a-service in GitHub Pages.
+
+That means there's source code for the site (text files and assets) that a
+program (Jekyll) tranforms into a website (generated HTML files) that GitHub
+then hosts at https://uw-madison-doit.github.io/uw-it-design-system/ .
+
+### File structure
+
+#### Content
+
+Most of the content of the site that's *about* the design system is in the
+content pages. These tend to be Markdown files (with a `.md` suffix) in the
+`docs` directory. There you'll find sub-directories for `components` and for
+`foundations`.
+
+A content file includes `YAML` frontmatter that declares metadata about the
+file. That is, the page's title and what layout it uses.
+
+```yaml
+---
+layout: default
+title: Typography
+---
+```
+
+Then the file includes content.
+
+Most content files use Markdown, a markup language that optimizes for basic
+text content. Markdown is a super-set of HTML -- you can write HTML in Markdown
+files.
+
+#### Styles
+
+This site uses SASS files that compile to CSS to style the site as experienced
+by end users.
+
+In the `_sass` directory there's `.scss` files defining these styles.
+
+`assets/css/main.scss` is the entry point, importing the other `.scss` files.
+
+#### Layouts
+
+When content (and other) files declare `layout:` in their front matter, they're
+declaring which of the HTML files in `_layouts` to use to render the content.
+
+#### Includes
+
+`_includes` provides macros that pages include using the `{% include}` macro (in
+a templating language called Liquid).
+
+For instance, `do-this-not-that.html` defines the `do-this-not-that` include.
+
+### How you can edit
+
+### Option 1: online editing
+
+You can edit on the web via GitHub.com without downloading or locally building
+anything.
+
+The advantage of this is that it's easy and low barrier to entry.
+
+The big disadvantage of this is that it skips locally previewing change before
+that change would hit the public website.
+
+### Option 2: local editing with Docker build
 
 Good news: you can locally build and try out the documentation without locally
 installing Ruby, Bundler, Gem, Gulp, Hack, Cough, Spittle, Phlem, or, well, you
 get the idea.
 
-1. Clone this repo locally:
-   `git clone https://github.com/UW-Madison-DoIT/uw-it-design-system.git`
-2. Install [Docker][].
-3. Navigate on the command line to the directory of this project.
-4. `docker-compose up`
-5. Tada! You can now locally try out the site at
-   `localhost:8080/uw-it-design-system/`.
+#### Pre-requisites
 
-All the tooling, all the building, happens contained in a tidy little Docker
-container with no impact on your local environment.
+You'll need
 
-## Developing
++ The command line (`Terminal` in MacOS)
++ A Git client (the one built into your MacOS is fine)
++ [Docker][]
 
-Ensure you have Jekyll installed on your machine: `jekyll -v` 
+#### Step 1: Clone this repo locally
+
+On the command line, navigate to somewhere you'd like to have a copy of this
+repo on your computer.
+
+(This is an example of commands that will work. If you're already comfortable,
+feel free to make your own choices about where you want directories with what
+names.)
+
+(The `$` represents your prompt, which may look different for you. It might be
+something more like `hostname:~ username$` . In any case,
+_you are not meant to type in the $_).
+
+```shell
+$ cd
+$ mkdir uw-it-design-system-work
+$ cd uw-it-design-system-work
+$ git clone git clone https://github.com/UW-Madison-DoIT/uw-it-design-system.git
+$ cd uw-it-design-system
+```
+
+If you followed that exactly, you are now a couple folders deep in your home
+directory. From there...
+
+#### Step 2: Use a Docker container to generate and host the site
+
+From the command line, from within the directory where you cloned the repo...
+
+```shell
+$ docker-compose up
+```
+
+##### Step 3: Try it out
+
+Try out the site in your web browser, at
+`localhost:8080/uw-it-design-system/` .
+
+(It's port `8080` because you're on the outside of a Docker container that
+publishes to that specific port number.)
+
+#### Step 4: Edit something
+
+This is the upside of building the site locally: you can now make a change and
+see its effect. Edit a file, and the Jekyll running in the Docker container will
+re-build the site. Refresh your web browser, and you'll see the change.
+
+Pro tip: Use the developer tools or developer mode of your browser to opt out of
+browser caching so that your browser will reflect the changed pages.
+
+#### Step 5: Offer the change upstream via a Pull Request
+
+Once you have locally crafted a change that you'd like to offer as a
+contribution, offer it upstream via a GitHub Pull Request.
+
+### Option 3: local editing with local Jekyll
+
+Clone the repository locally and run `bundler install`
+That's all there is to it.
+
+Ensure you have Jekyll installed on your machine: `jekyll -v`
 
 Jekyll installation instructions: [https://jekyllrb.com/docs/installation/macos/]
-
-## Developing
 
 To build the \_site directory used by Jekyll, use: `jekyll build`
 
@@ -40,50 +158,7 @@ To run the site locally, use: `jekyll serve`
 
 Hint: when that doesn't work, try `bundle exec jekyll serve` .
 
-## Building for Production
-
-Building for production is easy, just run npm run build-prod to compile and minify all .scss and .js files. This will overwrite any non minified files in the dist directory, this is done so that file paths do not need to be changed when building for prod or working in a dev environment.
-
 The site will be available at http://127.0.0.1:4000/uw-it-design-system/
-
-## Do and do not includes
-
-To use the do this, not that idiom, use the `do-this-not-that` `include`.
-
-Do and do not examples consist of:
-
-+ the positive example
-+ a phrase describing the positive example. The template will prepend "Do " to
-  this phrase.
-+ the negative example
-+ a phrase describing the negative example. The template will prepand "Don't "
-  to this phrase.
-
-First, capture the examples
-
-```liquid
-{% capture totally_do_this %}
-Labels are intended to look like this
-{% endcapture %}
-
-{% capture so_do_not_do_this %}
-Labels are not intended to look like this.
-{% endcapture %}
-```
-
-Then, invoke the include, passing along the examples and the phrases.
-
-```liquid
-{% include do-this-not-that.html
-  do-this=totally_do_this
-  do-phrase="use sentence case in labels"
-  not-that=so_do_not_do_this
-  not-phrase="end labels with end punctuation"
-  %}
-```
-
-In this example, `totally_do_this` and `so_do_not_do_this` are arbitrary
-identifiers -- use whatever would best label the examples.
 
 ## View Modes
 

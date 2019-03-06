@@ -6,7 +6,16 @@ body {
 	font-size: 16px;
 	letter-spacing: .05em;
   line-height: 1.65em;
-  background: $uw-page-bg;
+	background: $uw-page-bg;
+
+	&.no-scroll{
+		overflow: hidden;
+
+		@media screen and (min-width: $breakpoint-medium){
+			overflow: auto;
+
+		}
+	}
 
   .uwds-content-wrapper {
     display: flex;
@@ -59,5 +68,12 @@ h4 {
 	&--toggle a.active{
 		font-weight: 500;
 		color: $uw-gray-darkest;
+	}
+}
+
+.menu-toggle{
+
+	@media screen and (min-width: $breakpoint-medium){
+			display: none;
 	}
 }

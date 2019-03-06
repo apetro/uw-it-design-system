@@ -1,15 +1,22 @@
-.uwds-page__body {
-  position: absolute;
-  top: $topbar-height;
-  left: $sidebar-width;
-  right: 0;
-  bottom: 0;
+.uwds-page__body{
   overflow-y: auto;
+  
+    &__column {
+      max-width: $body-max-width;
+      margin-left: auto;
+      margin-right: auto;
+      padding: $gutter;
+    }
+}
 
-  &__column {
-    max-width: $body-max-width;
-    margin-left: auto;
-    margin-right: auto;
-    padding: $gutter;
+@media screen and (min-width: $breakpoint-medium) {
+  .uwds-page__body {
+    position: absolute;
+    top: $topbar-height;
+    left: $sidebar-width;
+    right: 0;
+    bottom: 0;
+    
   }
+
 }

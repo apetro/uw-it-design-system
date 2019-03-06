@@ -64,3 +64,13 @@ function getCookie(cname) {
 }
 
 /* End Get / Set Cookies */
+
+
+
+// 
+
+$('#menu-toggle').on('click', function(){
+	$('.uwds-page__sidebar').toggleClass('active');
+	$('body').toggleClass('no-scroll');
+
+});

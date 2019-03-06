@@ -5,7 +5,7 @@
       url: /docs/foundations/typography.html
     - name: Colors
       url: /docs/foundations/colors.html
-- name: UI Components
+- name: Components
   url: /docs/components
   items:
     - name: Toolbar

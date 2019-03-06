@@ -1,6 +1,6 @@
 ---
 layout: section
-title: UI Components
+title: Components
 ---
 
 Components are the pieces of the design system. Lorem ipsum dolor sit amet

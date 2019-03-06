@@ -1,15 +1,33 @@
-.uwds-page__sidebar {
-  width: $sidebar-width;
-  position: absolute;
-  top: $topbar-height;
-  bottom: 0;
-  left: 0;
+
+.uwds-page__sidebar{
   background: #959595;
   overflow-y: auto;
   color: white;
+  position: fixed;
+  transform: translateX(-100%);
+  transition: transform 200ms ease-in-out;
+  top: $topbar-height;
+  bottom: 0;
+  &.active{
+    transform: translateX(0);
+
+  }
 
   &__footer {
     padding: 32px 0;
     margin-left: 32px;
+  }
+
+}
+
+@media screen and (min-width: $breakpoint-medium){
+  .uwds-page__sidebar {
+    width: $sidebar-width;
+    position: absolute;
+    // height: 100vh;
+    left: 0;
+    transform: none;
+
+   
   }
 }

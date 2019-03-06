@@ -75,7 +75,7 @@ anything.
 The advantage of this is that it's easy and low barrier to entry.
 
 The big disadvantage of this is that it skips locally previewing change before
-that change would hit the public website.
+making change available to others.
 
 ### Option 2: local editing with Docker build
 

@@ -7,7 +7,7 @@ header.uwds-page-header {
   position: sticky;
   top: 0;
   align-items: center;
-	background: $base-red;
+	background: $color-red;
 	padding: $gutter/2 $gutter;
   box-sizing: border-box;
   max-height: 64px;
@@ -17,7 +17,7 @@ header.uwds-page-header {
     font-size: 1.2rem;
 
     a {
-      color: $white-text;
+      color: $color-white-font;
       text-decoration: none;
       text-transform: none; 
     }

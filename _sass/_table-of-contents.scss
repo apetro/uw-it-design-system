@@ -6,7 +6,7 @@
     & + & {
       margin-top: $gutter;
       padding-top: $gutter;
-      border-top: 1px solid $gray-lighter;
+      border-top: 1px solid $color-gray-lighter;
     }
   }
 
@@ -30,7 +30,7 @@
 
   &__a:link,
   &__a:visited {
-    color: $black-text;
+    color: $color-black-font;
     text-decoration: none;
   }
 }

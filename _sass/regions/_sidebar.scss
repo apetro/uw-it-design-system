@@ -2,11 +2,11 @@
   width: $sidebar-width;
   position: absolute;
   top: $topbar-height;
-  border-right: 1px solid $gray-lighter;
+  border-right: 1px solid $color-gray-lighter;
   bottom: 0;
   left: 0;
   overflow-y: auto;
-  color: $black-text;
+  color: $color-black-font;
 
   &__footer {
     padding: 32px 0;

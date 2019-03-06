@@ -1,42 +1,38 @@
-/* Primary Colors */
-
-$base-red: #C5050C;
-$base-blue: #0479A8;
-$base-gray-dark: #494949;
-$base-gray-light: #ADADAD;
-
-/* Secondary Colors */
-
-// Orange
-$orange-light: #FFB74D;
-$orange-medium: #FF9800;
-$orange-dark: #EF6C00;
-
-// Yellow
-$yellow-light: #FFE082;
-$yellow-medium: #FFC82C;
-$yellow-dark: #F8B700;
-
-// Green
-$green-light: #81B184;
-$green-medium: #2E7D32;
-$green-dark: #1B4B1E;
 
 // Red
-$red-light: #D79999;
-$red-dark: #9B0000;
+$color-red: #C5050C;
+$color-red-light: #D79999;
+$color-red-dark: #9B0000;
+
+// Gray
+$color-gray-dark: #494949;
+$color-gray-light: #ADADAD;
+$color-gray-lighter: #DADFE1;
+$color-gray-lightest: #F7F7F7;
+
+// Orange
+$color-orange-light: #FFB74D;
+$color-orange-medium: #FF9800;
+$color-orange-dark: #EF6C00;
+
+// Yellow
+$color-yellow-light: #FFE082;
+$color-yellow-medium: #FFC82C;
+$color-yellow-dark: #F8B700;
+
+// Green
+$color-green-light: #81B184;
+$color-green-medium: #2E7D32;
+$color-green-dark: #1B4B1E;
 
 //Blue
-$blue-light: #9AC9DC;
-$blue-dark: #034E6C;
-
-/* Background Colors */
-$gray-lighter: #DADFE1;
-$gray-lightest: #F7F7F7;
+$color-blue: #0479A8;
+$color-blue-light: #9AC9DC;
+$color-blue-dark: #034E6C;
 
 /* Font Colors */
-$black-text: #282728;
-$white-text: #F9F9F9;
+$color-black-font: #282728;
+$color-white-font: #F9F9F9;
 
 /* Functional Patterns */
 $gutter: 30px;

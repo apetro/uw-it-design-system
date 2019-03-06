@@ -1,13 +1,12 @@
 .table-of-contents {
   padding: 32px 0;
-
   &__section {
     margin: 0 $gutter;
 
     & + & {
       margin-top: $gutter;
       padding-top: $gutter;
-      border-top: 1px solid rgba(255, 255, 255, 0.5);
+      border-top: 1px solid $gray-lighter;
     }
   }
 
@@ -31,7 +30,7 @@
 
   &__a:link,
   &__a:visited {
-    color: white;
+    color: $black-text;
     text-decoration: none;
   }
 }

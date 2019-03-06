@@ -6,16 +6,7 @@ body {
 	font-size: 16px;
 	letter-spacing: .05em;
   line-height: 1.65em;
-	background: $uw-page-bg;
-
-	&.no-scroll{
-		overflow: hidden;
-
-		@media screen and (min-width: $breakpoint-medium){
-			overflow: auto;
-
-		}
-	}
+  background: $gray-lightest;
 
   .uwds-content-wrapper {
     display: flex;
@@ -59,15 +50,15 @@ h4 {
 	display: none;
 	&--toggle {
 		text-align: right;
-		color: $uw-gray-darker;
+		color: $base-gray-dark;
 	}
 	&--toggle a {
 		text-decoration: none;
-		color: $uw-gray-darker;
+		color: $base-gray-dark;
 	}
 	&--toggle a.active{
 		font-weight: 500;
-		color: $uw-gray-darkest;
+		color: $base-gray-dark;
 	}
 }
 

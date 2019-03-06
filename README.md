@@ -85,6 +85,37 @@ Then, invoke the include, passing along the examples and the phrases.
 In this example, `totally_do_this` and `so_do_not_do_this` are arbitrary
 identifiers -- use whatever would best label the examples.
 
+## View Modes
+
+To add the "Design | Develop" toggle to a markdown page, add `viewmodes: true` to the page's top matter:
+```
+---
+layout: default
+title: Typography
+viewmodes: true
+---
+```
+
+Use a capture group to assign content to a specific view. In the example below, we use the capture group `{% capture designer %}` to assign designer specific content to the design view mode. 
+
+Add a view-mode.html include to the page to display the content.
+
+```
+{% capture designer %}
+	Designer specific content goes here...
+{% endcapture %}
+
+{% capture developer %}
+	Developer specific content goes here...
+{% endcapture %}
+
+{% include view-mode.html
+	designer=designer
+	developer=developer
+%}
+```
+
+
 ---
 
 Copyright (c) 2019 by Board of Regents of the University of Wisconsin System.

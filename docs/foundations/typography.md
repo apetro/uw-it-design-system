@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: component
 title: Typography
 ---
 
@@ -35,12 +35,9 @@ SOME KIND OF DEMONSTRATIVE EXAMPLE GOES HERE
 <h6>H6: The quick brown fox jumps over the lazy dog</h6>
 
 {% endcapture %}
+{% include view-mode.html designer=designer %}
 
 {% capture developer %}
-	Developer Content
+	Developer specific content
 {% endcapture %}
-
-{% include view-mode.html
-	designer=designer
-	developer=developer
-%}
+{% include view-mode.html developer=developer %}

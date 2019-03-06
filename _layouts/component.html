@@ -1,5 +1,20 @@
----
-layout: default
----
-
-{{ content }}
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+	{% include head.html %}
+  <body>
+    <div class="uwds-page">
+      {% include header.html %}
+      <div class="uwds-page__sidebar">
+        {% include table-of-contents.html %}
+      </div>
+      <div class="uwds-page__body">
+        <div class="uwds-page__body__column">
+					{% include view-mode-toggle.html %}
+          <h1>{{ page.title }}</h1>
+          {{ content }}
+        </div>
+      </div>
+    </div>
+		{% include scripts.html %}
+  </body>
+</html>

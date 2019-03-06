@@ -1,7 +1,11 @@
+{% if include.designer %}
 <div class="uwds-view-mode" data-mode="designer">
 	{{ include.designer | markdownify }}
 </div>
+{% endif %}
 
+{% if include.developer %}
 <div class="uwds-view-mode" data-mode="developer">
-		{{ include.developer | markdownify }}
+	{{ include.developer | markdownify }}
 </div>
+{% endif %}

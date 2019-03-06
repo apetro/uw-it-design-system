@@ -11,6 +11,8 @@ $( document ).ready(function() {
 		if (viewMode != "") {
 			// Show saved mode
 			$('.uwds-view-mode[data-mode="' + viewMode + '"]').show();
+			// Remove default active button class
+			$('.uwds-view-mode--toggle a').removeClass('active');
 			// Toggle active button class
 			$('.uwds-view-mode--toggle a[data-mode="' + viewMode + '"]').addClass('active');
 		} else {

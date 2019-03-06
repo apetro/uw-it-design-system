@@ -160,32 +160,6 @@ Hint: when that doesn't work, try `bundle exec jekyll serve` .
 
 The site will be available at http://127.0.0.1:4000/uw-it-design-system/
 
-## View Modes
-
-The "Design | Develop" view modes toggle is automatically included on the component layout.
-```
----
-layout: component
-title: Typography
----
-```
-
-Use a capture group to assign content to a specific view. In the example below, we use the capture group `{% capture designer %}` to assign designer specific content to the design view mode.
-
-```
-{% capture designer %}
-	Designer specific content goes here...
-{% endcapture %}
-{% include view-mode.html designer=designer %}
-
-{% capture developer %}
-	Developer specific content goes here...
-{% endcapture %}
-{% include view-mode.html developer=developer %}
-
-```
-
-
 ---
 
 Copyright (c) 2019 by Board of Regents of the University of Wisconsin System.

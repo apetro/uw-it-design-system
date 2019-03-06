@@ -145,6 +145,8 @@ browser caching so that your browser will reflect the changed pages.
 Once you have locally crafted a change that you'd like to offer as a
 contribution, offer it upstream via a GitHub Pull Request.
 
+Tip: See [Resources][] for leads on learning Git and GitHub.
+
 ### Option 3: local editing with local Jekyll
 
 Clone the repository locally and run `bundler install`
@@ -193,3 +195,4 @@ Use a capture group to assign content to a specific view. In the example below, 
 Copyright (c) 2019 by Board of Regents of the University of Wisconsin System.
 
 [Docker]: https://www.docker.com/
+[Resources]: https://uw-madison-doit.github.io/uw-it-design-system/docs/resources.html
